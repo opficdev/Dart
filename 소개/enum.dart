@@ -30,3 +30,59 @@ void main() {
     print("Your planet is not a giant \"giant planet\".");
   }
 }
+
+// Swift
+// enum PlanetType {
+//     case terrestrial, gas, ice
+// }
+
+// // 태양계의 행성 정의
+// enum Planet {
+//     case mercury
+//     case venus
+//     case earth
+//     case uranus
+//     case neptune
+
+//     // 각 행성의 관련된 정보 저장
+//     var planetType: PlanetType {
+//         switch self {
+//         case .mercury, .venus, .earth:
+//             return .terrestrial
+//         case .uranus, .neptune:
+//             return .ice
+//         }
+//     }
+
+//     var moons: Int {
+//         switch self {
+//         case .mercury, .venus:
+//             return 0
+//         case .earth:
+//             return 1
+//         case .uranus:
+//             return 27
+//         case .neptune:
+//             return 14
+//         }
+//     }
+
+//     var hasRings: Bool {
+//         switch self {
+//         case .uranus, .neptune:
+//             return true
+//         default:
+//             return false
+//         }
+//     }
+
+//     // 발전된 enum 메서드 (거대 행성인지 여부 확인)
+//     var isGiant: Bool {
+//         return planetType == .gas || planetType == .ice
+//     }
+// }
+
+// let yourPlanet = Planet.earth
+// if !yourPlanet.isGiant {
+//     print("Your planet is not a giant \"giant planet\".")
+// }
