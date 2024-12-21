@@ -29,7 +29,7 @@ const double atm = 1.01325 * bar;
 // const는 변수에만 해당하는 것이 아님. const 값도 존재함
 var foo = const []; // 변수 재할당 가능 but 리스트 내용 변경 불가능
 final box = const []; // 변수 재할당 불가능 and 리스트 내용 변경 불가능
-const bax = []; // 변수 재할당 불가능 but 리스트 내용 변경 불가능
+const bax = []; // 변수 재할당 불가능 but 리스트 내용 변경 불가능 bax = [42]; Error: Constant variables can't be assigned a value.
 
 void main() {
   // 지역 변수를 선언할 때는 값을 초기화 하지 않아도 되지만
